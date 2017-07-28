@@ -1,5 +1,5 @@
 Package: bciex
-Title: Forest Dynamics Data from Barro Colorado Island (BCI)
+Title: Forest Dynamics Data from Barro Colorado Island (BCI), 2016.
 Version: 0.0.0.9000
 Authors@R: c(
     person("Rick", "Condit", , "condit@ctfs.si.edu", role = c("aut")),
@@ -10,7 +10,7 @@ Authors@R: c(
     person("CTFS-ForestGEO", , , "ForestGEO@si.edu", role = c("cph", "fnd"))
     )
 Description: Example Data to Analyse forest dynamics from Barro Colorado Island
-    (BCI).
+    (BCI), 2016.
 Depends:
     R (>= 3.1.2)
 License: file LICENSE

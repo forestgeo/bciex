@@ -12,6 +12,8 @@ knitr::opts_chunk$set(
 )
 ```
 
+[![Travis-CI Build Status](https://travis-ci.org/forestgeo/bciex.svg?branch=master)](https://travis-ci.org/forestgeo/bciex)
+
 # Original Data from Suzanne Lao 
 
 __`bcifiles/` and `bci.quad.info.rdata`__

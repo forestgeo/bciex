@@ -1,10 +1,19 @@
 Package: bciex
-Title: What the Package Does (one line, title case)
+Title: Forest Dynamics Data from Barro Colorado Island (BCI)
 Version: 0.0.0.9000
-Authors@R: person("First", "Last", email = "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-Depends: R (>= 3.3.3)
-License: What license is it under?
+Authors@R: c(
+    person("Rick", "Condit", , "condit@ctfs.si.edu", role = c("aut")),
+    person("Pamela", "Hall", , "phall@alum.mit.edu", role = c("aut")),
+    person("Suzanne", "Lao", , "laoz@si.edu", role = c("aut")),
+    person("Kyle", "Harms", , "kharms@lsu.edu", role = c("aut")),
+    person("Mauro", "Lepore", , "leporem@si.edu", role = c("aut", "ctr", "cre")),
+    person("CTFS-ForestGEO", , , "ForestGEO@si.edu", role = c("cph", "fnd"))
+    )
+Description: Example Data to Analyse forest dynamics from Barro Colorado Island
+    (BCI).
+Depends:
+    R (>= 3.1.2)
+License: file LICENSE
 Encoding: UTF-8
 LazyData: true
 Suggests: knitr,
@@ -12,3 +21,7 @@ Suggests: knitr,
     testthat,
     covr
 VignetteBuilder: knitr
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1
+URL: https://github.com/forestgeo/bciex
+BugReports: https://github.com/forestgeo/bciex/issues

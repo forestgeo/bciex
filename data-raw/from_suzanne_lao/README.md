@@ -1,7 +1,11 @@
-Original Data from Suzanne Lao
-================
 
-<https://goo.gl/WhFNqd>
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+Original Data from Suzanne Lao
+==============================
+
+**`bcifiles/` and `bci.quad.info.rdata`**
+
+This folder contains original files sent By Suzanne Lao. (Mauro's private email <https://goo.gl/WhFNqd>).
 
     ---------- Forwarded message ----------
     From: Lao, Suzanne <LAOZ@si.edu>

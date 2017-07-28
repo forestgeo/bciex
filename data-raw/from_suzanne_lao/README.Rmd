@@ -1,16 +1,22 @@
 ---
-title: "Original Data from Suzanne Lao"
-subtitle: "`bcifiles/` and `bci.quad.info.rdata`"
 output: github_document
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
 ```
 
+# Original Data from Suzanne Lao 
 
+__`bcifiles/` and `bci.quad.info.rdata`__
 
-https://goo.gl/WhFNqd
+This folder contains original files sent By Suzanne Lao. (Mauro's private email https://goo.gl/WhFNqd).
 
 ```
 ---------- Forwarded message ----------

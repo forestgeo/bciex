@@ -45,5 +45,11 @@ devtools::install_github("forestgeo/bciex", auth_token = "abc")
 This is a basic example which shows you how to solve a common problem:
 
 ```{r example}
-## basic example code
+library(bciex)
+
+# Mini dataset of 1000 randomly selected trees from BCI; data realeased in 2012
+str(bci12t1mini)
+
+# The stem data corresponding to the 1000 trees above.
+str(bci12s7mini)
 ```

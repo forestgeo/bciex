@@ -8,7 +8,7 @@ bciex
 Overview
 --------
 
-The goal of bciex is to make it easy to access data for examples.
+The goal of **bciex** is to make it easy to access data for examples and tests. It contains minimal data of forest dynamics from Barro Colorado Island (BCI), Panama. These data are incomplete so you should not used it for analyses.
 
 Installation
 ------------

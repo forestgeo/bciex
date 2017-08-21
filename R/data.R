@@ -57,7 +57,7 @@
 #'
 #' @source Lao, Suzanne \email{LAOZ@@si.edu}.
 #' @format
-#' A matrix with 101 rows and 201 columns. Row and column names are NULL.
+#' A matrix of the elevation data, with columns representing x and rows representing y. At bci, there are 101 rows and 201 columns, representing elevation recorded over each 5x5m grid.
 "bci_mat"
 
 #' Dimensions of the plot from Barro Colorado Island (BCI).
@@ -109,15 +109,15 @@
 #' @source Lao, Suzanne \email{LAOZ@@si.edu}.
 #' @format
 #' A tibble with 16558 rows and 9 variables xxx:
-#' * `wsg`:
-#' * `idlevel`:
-#' * `site`:
-#' * `sp`:
-#' * `genus`:
-#' * `species`:
-#' * `genwood`:
-#' * `famwood`:
-#' * `spwood`:
+#' * `wsg`: wood specific gravity, i.e. dry wood density.
+#' * `idlevel`: The taxonomic level from which the wsg was taken. If genus, wsg is the mean for the entire genus, if family, wsg is the mean for the family.
+#' * `site`: Plot name. Should match site name in database.
+#' * `sp`: The species code or mnemonic.
+#' * `genus`: The taxonomic genus name.
+#' * `species`: The taxonomic species name.
+#' * `genwood`: Mean wsg for the genus.
+#' * `famwood`: Mean wsg for the family.
+#' * `spwood`: Mean wsg for the species.
 "bci_wood_density"
 
 

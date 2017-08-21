@@ -111,7 +111,7 @@
 #' A tibble with 16558 rows and 9 variables xxx:
 #' * `wsg`: wood specific gravity, i.e. dry wood density.
 #' * `idlevel`: The taxonomic level from which the wsg was taken. If genus, wsg is the mean for the entire genus, if family, wsg is the mean for the family.
-#' * `site`: Plot name. Should match site name in database.
+#' * `site`: Plot name. Should match name in database.
 #' * `sp`: The species code or mnemonic.
 #' * `genus`: The taxonomic genus name.
 #' * `species`: The taxonomic species name.

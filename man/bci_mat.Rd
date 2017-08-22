@@ -3,8 +3,8 @@
 \docType{data}
 \name{bci_mat}
 \alias{bci_mat}
-\title{xxx Ask Suzanne.}
-\format{A matrix with 101 rows and 201 columns. Row and column names are NULL.}
+\title{A matrix of elevation data from Barro Colorado Island.}
+\format{A matrix with 101 rows and 201 columns.}
 \source{
 Lao, Suzanne \email{LAOZ@si.edu}.
 }
@@ -12,6 +12,15 @@ Lao, Suzanne \email{LAOZ@si.edu}.
 bci_mat
 }
 \description{
-xxx Ask Suzanne.
+A matrix of elevation data from Barro Colorado Island (BCI). Data is recorded
+over each 5x5m grid. Columns represent x coordinates and rows represent y
+coordinates.
+}
+\details{
+bci_mat and \link{bci_elevation} contain the same information. They differ only in
+the class: bci_mat is a matrix and \link{bci_elevation} is a dataframe.
+}
+\seealso{
+\link{bci_elevation}.
 }
 \keyword{datasets}

@@ -3,13 +3,13 @@
 \docType{data}
 \name{bci_elevation}
 \alias{bci_elevation}
-\title{Elevation data from Barro Colorado Island (BCI), Panama.}
+\title{Elevation data from Barro Colorado Island, Panama, recorded over a 5x5m grid.}
 \format{A tibble with 20301 rows and 3 variables:
 \itemize{
-\item \code{x}, \code{y}: coordinates at every corner across the plot (xxx in meters from
-some reference).
-\item \code{elev}: elevation at every corner across the plot (xxx in meters from some
-reference).
+\item \code{x}, \code{y}: coordinates at every corner across the BCI plot (xxx which
+corner?).
+\item \code{elev}: elevation at every corner across the plot (xxx which corner?, xxx
+is the unit meters?).
 }}
 \source{
 Lao, Suzanne \email{LAOZ@si.edu}.
@@ -18,6 +18,10 @@ Lao, Suzanne \email{LAOZ@si.edu}.
 bci_elevation
 }
 \description{
-Elevation data from Barro Colorado Island (BCI), Panama.
+Elevation data from Barro Colorado Island (BCI), Panama, recorded over a 5x5m
+grid.
+}
+\seealso{
+\link{bci_mat}.
 }
 \keyword{datasets}

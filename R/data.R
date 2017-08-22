@@ -42,22 +42,33 @@
 
 # Elevation Data ----------------------------------------------------------
 
-#' Elevation data from Barro Colorado Island (BCI), Panama.
+#' Elevation data from Barro Colorado Island, Panama, recorded over a 5x5m grid.
+#'
+#' Elevation data from Barro Colorado Island (BCI), Panama, recorded over a 5x5m
+#' grid.
 #'
 #' @source Lao, Suzanne \email{LAOZ@@si.edu}.
 #' @format
 #' A tibble with 20301 rows and 3 variables:
-#' * `x`, `y`: coordinates at every corner across the plot (xxx in meters from
-#' some reference).
-#' * `elev`: elevation at every corner across the plot (xxx in meters from some
-#' reference).
+#' * `x`, `y`: coordinates at every corner across the BCI plot (xxx which
+#' corner?).
+#' * `elev`: elevation at every corner across the plot (xxx which corner?, xxx
+#' is the unit meters?).
+#' @seealso [bci_mat].
 "bci_elevation"
 
-#' xxx Ask Suzanne.
+#' A matrix of elevation data from Barro Colorado Island.
+#'
+#' A matrix of elevation data from Barro Colorado Island (BCI). Data is recorded
+#' over each 5x5m grid. Columns represent x coordinates and rows represent y
+#' coordinates.
+#'
+#' bci_mat and [bci_elevation] contain the same information. They differ only in
+#' the class: bci_mat is a matrix and [bci_elevation] is a dataframe.
 #'
 #' @source Lao, Suzanne \email{LAOZ@@si.edu}.
-#' @format
-#' A matrix of the elevation data, with columns representing x and rows representing y. At bci, there are 101 rows and 201 columns, representing elevation recorded over each 5x5m grid.
+#' @format A matrix with 101 rows and 201 columns.
+#' @seealso [bci_elevation].
 "bci_mat"
 
 #' Dimensions of the plot from Barro Colorado Island (BCI).
@@ -108,16 +119,18 @@
 #'
 #' @source Lao, Suzanne \email{LAOZ@@si.edu}.
 #' @format
-#' A tibble with 16558 rows and 9 variables xxx:
+#' A tibble with 16558 rows and 9 variables:
 #' * `wsg`: wood specific gravity, i.e. dry wood density.
-#' * `idlevel`: The taxonomic level from which the wsg was taken. If genus, wsg is the mean for the entire genus, if family, wsg is the mean for the family.
+#' * `idlevel`: The taxonomic level from which the `wsg` was taken. If `genus`,
+#'     `wsg` is the mean for the entire genus, if `family`, wsg is the mean for the
+#'     family, etc.
 #' * `site`: Plot name. Should match name in database.
 #' * `sp`: The species code or mnemonic.
 #' * `genus`: The taxonomic genus name.
 #' * `species`: The taxonomic species name.
-#' * `genwood`: Mean wsg for the genus.
-#' * `famwood`: Mean wsg for the family.
-#' * `spwood`: Mean wsg for the species.
+#' * `genwood`: Mean `wsg` for the genus.
+#' * `famwood`: Mean `wsg` for the family.
+#' * `spwood`: Mean `wsg` for the species.
 "bci_wood_density"
 
 

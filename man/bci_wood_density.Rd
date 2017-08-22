@@ -4,17 +4,19 @@
 \name{bci_wood_density}
 \alias{bci_wood_density}
 \title{Wood density data from Barro Colorado Island (BCI), Panama.}
-\format{A tibble with 16558 rows and 9 variables xxx:
+\format{A tibble with 16558 rows and 9 variables:
 \itemize{
-\item \code{wsg}:
-\item \code{idlevel}:
-\item \code{site}:
-\item \code{sp}:
-\item \code{genus}:
-\item \code{species}:
-\item \code{genwood}:
-\item \code{famwood}:
-\item \code{spwood}:
+\item \code{wsg}: wood specific gravity, i.e. dry wood density.
+\item \code{idlevel}: The taxonomic level from which the \code{wsg} was taken. If \code{genus},
+\code{wsg} is the mean for the entire genus, if \code{family}, wsg is the mean for the
+family, etc.
+\item \code{site}: Plot name. Should match name in database.
+\item \code{sp}: The species code or mnemonic.
+\item \code{genus}: The taxonomic genus name.
+\item \code{species}: The taxonomic species name.
+\item \code{genwood}: Mean \code{wsg} for the genus.
+\item \code{famwood}: Mean \code{wsg} for the family.
+\item \code{spwood}: Mean \code{wsg} for the species.
 }}
 \source{
 Lao, Suzanne \email{LAOZ@si.edu}.

@@ -207,6 +207,28 @@ NULL
 #'
 #' @format A dataframe with 2165 rows and 20 variables.
 #' Variables are defined at: http://ctfs.si.edu/Public/DataDict/data_dict.php.
+#'
+#' * treeID`:
+#' * `stemID`:
+#' * `tag`:
+#' * `StemTag`:
+#' * `sp`:
+#' * `quadrat`:
+#' * `gx`:
+#' * `gy`:
+#' * `MeasureID`:
+#' * `CensusID`:
+#' * `dbh`:
+#' * `pom`: Point of measurement.
+#' * `hom`: Height of measurement (xxx how is it different from pom?).
+#' * `ExactDate`:
+#' * `DFstatus`:
+#' * `codes`:
+#' * `countPOM`:
+#' * `date`:
+#' * `status`:
+#' * `agb`: `
+#'
 #' @aliases bci12s1mini bci12s2mini bci12s3mini bci12s4mini bci12s5mini
 #'   bci12s6mini bci12s7mini
 #' @name bciYYsNmini

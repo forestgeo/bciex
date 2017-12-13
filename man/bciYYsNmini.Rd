@@ -11,7 +11,29 @@
 \alias{bci12s7mini}
 \title{Subset of stem data from Barro Colorado Island, Panama.}
 \format{A dataframe with 2165 rows and 20 variables.
-Variables are defined at: http://ctfs.si.edu/Public/DataDict/data_dict.php.}
+Variables are defined at: http://ctfs.si.edu/Public/DataDict/data_dict.php.
+\itemize{
+\item treeID`:
+\item \code{stemID}:
+\item \code{tag}:
+\item \code{StemTag}:
+\item \code{sp}:
+\item \code{quadrat}:
+\item \code{gx}:
+\item \code{gy}:
+\item \code{MeasureID}:
+\item \code{CensusID}:
+\item \code{dbh}:
+\item \code{pom}: Point of measurement.
+\item \code{hom}: Height of measurement (xxx how is it different from pom?).
+\item \code{ExactDate}:
+\item \code{DFstatus}:
+\item \code{codes}:
+\item \code{countPOM}:
+\item \code{date}:
+\item \code{status}:
+\item \code{agb}: `
+}}
 \source{
 From \url{https://repository.si.edu/handle/10088/20925}, file
 bci.stem#.rda.

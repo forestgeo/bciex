@@ -112,7 +112,6 @@
 
 
 
-
 # Wood Density ------------------------------------------------------------
 
 #' Wood density data from Barro Colorado Island (BCI), Panama.
@@ -152,11 +151,6 @@
 
 
 
-
-
-
-
-
 #' Habitat data from Barro Colorado Island (BCI), Panama.
 #'
 #' Habitats from BCI determined by the slope, convexity, and elevation.
@@ -170,8 +164,6 @@
 #' * `hab`: Habitat. xxx I converted this from factor to integer.
 #' * `quad`: xxx I converted this from factor to integer
 "bci_quad_info"
-
-
 
 
 
@@ -191,6 +183,7 @@
 #'   bci12t6mini bci12t7mini
 #' @name bciYYtNmini
 NULL
+
 
 
 # Tree and Stem Data ------------------------------------------------------
@@ -233,3 +226,19 @@ NULL
 #'   bci12s6mini bci12s7mini
 #' @name bciYYsNmini
 NULL
+
+
+
+# ViewFullTable -----------------------------------------------------------
+
+#' An example ViewFullTable data set.
+#'
+#' ViewFullTable with data of a only 10 quadrats of the censuses 6 and 7 of the
+#' 50 hectare plot of Barro Colorado Island downloaded from:
+#' https://doi.org/10.5479/data.bci.20130603. Explanation by Suzanne Lao
+#' https://goo.gl/fg2nqh.
+#'
+#' @source https://doi.org/10.5479/data.bci.20130603.
+#' @format A tibble with 4,374 rows and 28 variables.
+"bci12vft_mini"
+

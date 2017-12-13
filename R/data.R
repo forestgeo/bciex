@@ -42,7 +42,7 @@
 
 # Elevation Data ----------------------------------------------------------
 
-#' Elevation data from Barro Colorado Island, Panama, recorded over a 5x5m grid.
+#' Elevation data from BCI recorded over a 5x5m grid.
 #'
 #' Elevation data from Barro Colorado Island (BCI), Panama, recorded over a 5x5m
 #' grid.

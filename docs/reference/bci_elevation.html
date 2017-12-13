@@ -6,13 +6,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>Elevation data from Barro Colorado Island (BCI), Panama. — bci_elevation â€¢ bciex</title>
+<title>Elevation data from BCI recorded over a 5x5m grid. — bci_elevation â€¢ bciex</title>
 
 <!-- jquery -->
 <script src="https://code.jquery.com/jquery-3.1.0.min.js" integrity="sha384-nrOSfDHtoPMzJHjVTdCopGqIqeYETSXhZDFyniQ8ZHcVy08QesyHcnOUpMpqnmWq" crossorigin="anonymous"></script>
 <!-- Bootstrap -->
+<link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/united/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
-<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 <!-- Font Awesome icons -->
@@ -23,7 +23,8 @@
 <link href="../pkgdown.css" rel="stylesheet">
 <script src="../jquery.sticky-kit.min.js"></script>
 <script src="../pkgdown.js"></script>
-
+  
+  
 <!-- mathjax -->
 <script src='https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML'></script>
 
@@ -51,16 +52,28 @@
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="../reference/index.html">Reference</a>
+  <a href="../reference/index.html">Data Sets</a>
 </li>
       </ul>
       
       <ul class="nav navbar-nav navbar-right">
         <li>
-  <a href="https://github.com/forestgeo/bciex">
-    <span class="fa fa-github fa-lg"></span>
+  <a href="../news/index.html">News</a>
+</li>
+<li>
+  <a href="https://github.com/maurolepore">
+    <span class="fa fa-gavel"></span>
      
   </a>
+</li>
+<li>
+  <a href="https://github.com/forestgeo/bciex">
+    <span class="fa fa-github"></span>
+     
+  </a>
+</li>
+<li>
+  <a href="https://forestgeo.github.io/fgeo/">fgeo</a>
 </li>
       </ul>
     </div><!--/.nav-collapse -->
@@ -73,11 +86,12 @@
       <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>Elevation data from Barro Colorado Island (BCI), Panama.</h1>
+    <h1>Elevation data from BCI recorded over a 5x5m grid.</h1>
     </div>
 
     
-    <p>Elevation data from Barro Colorado Island (BCI), Panama.</p>
+    <p>Elevation data from Barro Colorado Island (BCI), Panama, recorded over a 5x5m
+grid.</p>
     
 
     <pre class="usage"><span class='no'>bci_elevation</span></pre>
@@ -85,15 +99,19 @@
     <h2 class="hasAnchor" id="format"><a class="anchor" href="#format"></a>Format</h2>
 
     <p>A tibble with 20301 rows and 3 variables:</p><ul>
-<li><p><code>x</code>, <code>y</code>: coordinates at every corner across the plot (xxx in meters from
-some reference).</p></li>
-<li><p><code>elev</code>: elevation at every corner across the plot (xxx in meters from some
-reference).</p></li>
+<li><p><code>x</code>, <code>y</code>: coordinates at every corner across the BCI plot (xxx which
+corner?).</p></li>
+<li><p><code>elev</code>: elevation at every corner across the plot (xxx which corner?, xxx
+is the unit meters?).</p></li>
 </ul>
     
     <h2 class="hasAnchor" id="source"><a class="anchor" href="#source"></a>Source</h2>
 
     <p>Lao, Suzanne <a href='mailto:LAOZ@si.edu'>LAOZ@si.edu</a>.</p>
+    
+    <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
+
+    <p><a href='bci_mat.html'>bci_mat</a>.</p>
     
 
   </div>
@@ -104,6 +122,8 @@ reference).</p></li>
       <li><a href="#format">Format</a></li>
 
       <li><a href="#source">Source</a></li>
+
+      <li><a href="#see-also">See also</a></li>
           </ul>
 
   </div>
@@ -111,7 +131,7 @@ reference).</p></li>
 
       <footer>
       <div class="copyright">
-  <p>Developed by Rick Condit, Pamela Hall, Suzanne Lao, Kyle Harms, Mauro Lepore, CTFS-ForestGEO.</p>
+  <p>Developed by Rick Condit, Pamela Hall, Suzanne Lao, Kyle Harms, <a href='https://github.com/maurolepore'>Mauro Lepore</a>, <a href='http://www.forestgeo.si.edu/'>CTFS-ForestGEO</a>.</p>
 </div>
 
 <div class="pkgdown">

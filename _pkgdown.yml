@@ -1,0 +1,52 @@
+url: https://forestgeo.github.io/bciex/
+
+authors:
+  Mauro Lepore:
+    href: https://github.com/maurolepore
+  CTFS-ForestGEO:
+    href: http://www.forestgeo.si.edu/
+
+template:
+  params:
+    bootswatch: united
+
+home:
+  links:
+  - text: Learn more
+    href: http://www.forestgeo.si.edu/
+
+
+
+navbar:
+
+  type: default
+
+  left:
+    - text: Data Sets
+      href: reference/index.html
+
+  right:
+    - text: News
+      href: news/index.html
+
+    - icon: fa-gavel
+      href: https://github.com/maurolepore
+
+    - icon: fa-github
+      href: https://github.com/forestgeo/bciex
+
+    - text: fgeo
+      href: https://forestgeo.github.io/fgeo/
+
+
+
+reference:
+
+  - title: "Data Sets"
+    contents:
+      - starts_with("bci12")
+      - starts_with("bci_")
+
+  - title: "Package documentation"
+    contents:
+      - starts_with("bciex-package")

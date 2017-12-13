@@ -3,7 +3,7 @@
 \docType{data}
 \name{bci_elevation}
 \alias{bci_elevation}
-\title{Elevation data from Barro Colorado Island, Panama, recorded over a 5x5m grid.}
+\title{Elevation data from BCI recorded over a 5x5m grid.}
 \format{A tibble with 20301 rows and 3 variables:
 \itemize{
 \item \code{x}, \code{y}: coordinates at every corner across the BCI plot (xxx which

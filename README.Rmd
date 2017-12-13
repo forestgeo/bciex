@@ -12,32 +12,19 @@ knitr::opts_chunk$set(
 )
 ```
 
-# bciex
+# bciex: Example data from Barro Colorado Island <img src="https://i.imgur.com/39pvr4n.png" align="right" height=44 />
 
 
 [![Travis-CI Build Status](https://travis-ci.org/forestgeo/bciex.svg?branch=master)](https://travis-ci.org/forestgeo/bciex)
 
-
-
-## Overview
-
-The goal of __bciex__ is to make it easy to access data for examples and tests. It contains minimal data of forest dynamics from Barro Colorado Island (BCI), Panama. These data are incomplete so you should not used it for analyses.
-
 ## Installation
 
-You can install bciex from github with:
+Install __bciex__ from github with:
 
 ```{r gh-installation, eval = FALSE}
-# To install from a private repo, use auth_token with a token
-# from https://github.com/settings/tokens. You only need the
-# repo scope. Best practice is to save your PAT in env var called
-# GITHUB_PAT.
-
 # install.packages("devtools")
-devtools::install_github("forestgeo/bciex", auth_token = "abc")
+devtools::install_github("forestgeo/bciex")
 ```
-
-
 
 ## Example
 

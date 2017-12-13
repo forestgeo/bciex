@@ -1,30 +1,21 @@
 Package: bciex
-Title: Forest Dynamics Data from Barro Colorado Island (BCI), 2016
+Title: Forest Dynamics Data from Barro Colorado Island
 Version: 0.0.0.9000
 Authors@R: c(
-    person("Rick", "Condit", , "condit@ctfs.si.edu", role = c("aut")),
-    person("Pamela", "Hall", , "phall@alum.mit.edu", role = c("aut")),
-    person("Suzanne", "Lao", , "laoz@si.edu", role = c("aut")),
-    person("Kyle", "Harms", , "kharms@lsu.edu", role = c("aut")),
     person("Mauro", "Lepore", , "leporem@si.edu", role = c("aut", "ctr", "cre")),
     person("CTFS-ForestGEO", , , "ForestGEO@si.edu", role = c("cph", "fnd"))
-    )
-Description: Example Data to Analyse forest dynamics from Barro Colorado Island
-    (BCI), 2016.
-Depends:
-    R (>= 3.1.2)
-License: file LICENSE
-Encoding: UTF-8
-LazyData: true
-Suggests: knitr,
-    rmarkdown,
-    testthat,
-    covr
-VignetteBuilder: knitr
-Roxygen: list(markdown = TRUE)
-RoxygenNote: 6.0.1
+  )
+Description: Example Data to Analyse forest dynamics from Barro Colorado Island.
+License: GPL-3
 URL: https://github.com/forestgeo/bciex
 BugReports: https://github.com/forestgeo/bciex/issues
-Imports: 
-    bciex
-Remotes: forestgeo/bciex
+Depends: 
+    R (>= 3.1.2)
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 6.0.1

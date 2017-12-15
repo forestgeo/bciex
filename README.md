@@ -3,7 +3,7 @@
 bciex: Example data from Barro Colorado Island <img src="https://i.imgur.com/39pvr4n.png" align="right" height=44 />
 ====================================================================================================================
 
-[![Travis-CI Build Status](https://travis-ci.org/forestgeo/bciex.svg?branch=master)](https://travis-ci.org/forestgeo/bciex) [![Coverage status](https://coveralls.io/repos/github/forestgeo/bciex/badge.svg)](https://coveralls.io/r/forestgeo/bciex?branch=master) [![CRAN status](http://www.r-pkg.org/badges/version/bciex)](https://cran.r-project.org/package=bciex)
+[![Travis-CI Build Status](https://travis-ci.org/forestgeo/bciex.svg?branch=master)](https://travis-ci.org/forestgeo/bciex) [![CRAN status](http://www.r-pkg.org/badges/version/bciex)](https://cran.r-project.org/package=bciex)
 
 Installation
 ------------

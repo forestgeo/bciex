@@ -16,6 +16,8 @@ knitr::opts_chunk$set(
 
 
 [![Travis-CI Build Status](https://travis-ci.org/forestgeo/bciex.svg?branch=master)](https://travis-ci.org/forestgeo/bciex)
+[![Coverage status](https://coveralls.io/repos/github/forestgeo/bciex/badge.svg)](https://coveralls.io/r/forestgeo/bciex?branch=master)
+[![CRAN status](http://www.r-pkg.org/badges/version/bciex)](https://cran.r-project.org/package=bciex)
 
 ## Installation
 

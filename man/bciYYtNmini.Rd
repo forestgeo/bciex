@@ -9,16 +9,19 @@
 \alias{bci12t5mini}
 \alias{bci12t6mini}
 \alias{bci12t7mini}
-\title{Subset of tree data from Barro Colorado Island, Panama.}
-\format{A dataframe with 1000 rows and 20 variables.
-Variables are defined at: http://ctfs.si.edu/Public/DataDict/data_dict.php.}
+\title{A randomly selected subset of tree tables from Barro Colorado Island, Panama.}
+\format{A dataframe with 1,000 rows and 20 variables.}
 \source{
-From \url{https://repository.si.edu/handle/10088/20925}, file
-bci.full#.rda.
+Files bci.full#.rdata from
+\url{https://repository.si.edu/handle/10088/20925}.
 }
 \description{
-A subset of data of 1000 randomly selected trees from Barro Colorado Island,
-Panama (data released in 2012). For every bciYYtNmini, "YY" and "N" indicate
-the year and census number. For example, bci12t1mini contains BCI data
-released in 2012 from census 1.
+For every bciYYsNmini "YY" and "N" indicate the year and census number. For
+example, bci12t1mini contains data released in 2012 from census 1.
+}
+\seealso{
+census
+
+Other census tables.: \code{\link{bciYYsNmini}},
+  \code{\link{census}}
 }

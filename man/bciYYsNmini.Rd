@@ -9,38 +9,19 @@
 \alias{bci12s5mini}
 \alias{bci12s6mini}
 \alias{bci12s7mini}
-\title{Subset of stem data from Barro Colorado Island, Panama.}
-\format{A dataframe with 2165 rows and 20 variables.
-Variables are defined at: http://ctfs.si.edu/Public/DataDict/data_dict.php.
-\itemize{
-\item treeID`:
-\item \code{stemID}:
-\item \code{tag}:
-\item \code{StemTag}:
-\item \code{sp}:
-\item \code{quadrat}:
-\item \code{gx}:
-\item \code{gy}:
-\item \code{MeasureID}:
-\item \code{CensusID}:
-\item \code{dbh}:
-\item \code{pom}: Point of measurement.
-\item \code{hom}: Height of measurement (xxx how is it different from pom?).
-\item \code{ExactDate}:
-\item \code{DFstatus}:
-\item \code{codes}:
-\item \code{countPOM}:
-\item \code{date}:
-\item \code{status}:
-\item \code{agb}: `
-}}
+\title{A randomly selected subset of stem tables from Barro Colorado Island, Panama.}
+\format{A dataframe with 2,165 rows and 20 variables.}
 \source{
-From \url{https://repository.si.edu/handle/10088/20925}, file
-bci.stem#.rda.
+Files bci.stem#.rdata from
+\url{https://repository.si.edu/handle/10088/20925}.
 }
 \description{
-Stem data corresponding to a subset of 1000 randomly selected trees from
-Barro Colorado Island, Panama (data released in 2012). For every bciYYsNmini,
-"YY" and "N" indicate the year and census number. For example, bci12s1mini
-contains BCI data released in 2012 from census 1.
+For every bciYYsNmini "YY" and "N" indicate the year and census number. For
+example, bci12s1mini contains data released in 2012 from census 1.
+}
+\seealso{
+census
+
+Other census tables.: \code{\link{bciYYtNmini}},
+  \code{\link{census}}
 }

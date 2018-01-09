@@ -234,7 +234,7 @@
 #'     * `D`: Dead.
 #'     * `lost_stem` (deprecated): Lost stem. It usually means the stem was broken
 #'     in the given census, while the tree had no other stem.  This status is
-#'     deprecated;  it is safer to check `stemID` to determine whether a tree’s
+#'     deprecated;  it is safer to check `stemID` to determine whether a tree's
 #'     measurement changed stems between censuses.
 #'     * `M`: Missing. It is used where there is no record of the corresponding
 #'     value of `dbh`, so it is not certain whether the tree was alive or dead.
@@ -258,36 +258,36 @@
 #' @section Definition of Variables in stem tables:
 #' Compared to tree tables, the the variables are and mean the same. But notice
 #' some differences in `DFstatus` and `agb`; also notice the additional
-#' variables `countPOM` and `countPOM` and that the variable `nostems` does not
+#' variables `codes` and `countPOM` and that the variable `nostems` does not
 #' exist for stem tables.
 #'
-#' * `treeID`: See definition of tree table.
+#' * `treeID`: See tree table.
 #'
-#' * `stemID`: See definition of tree table.
+#' * `stemID`: See tree table.
 #'
-#' * `tag`: See definition of tree table.
+#' * `tag`: See tree table.
 #'
-#' * `StemTag`: See definition of tree table.
+#' * `StemTag`: See tree table.
 #'
-#' * `sp`: See definition of tree table.
+#' * `sp`: See tree table.
 #'
-#' * `quadrat`: See definition of tree table.
+#' * `quadrat`: See tree table.
 #'
-#' * `gx`: See definition of tree table.
+#' * `gx`: See tree table.
 #'
-#' * `gy`: See definition of tree table.
+#' * `gy`: See tree table.
 #'
-#' * `MeasureID`: See definition of tree table.
+#' * `MeasureID`: See tree table.
 #'
-#' * `CensusID`: See definition of tree table.
+#' * `CensusID`: See tree table.
 #'
 #' * `dbh`: Diameter of the stem.
 #'
-#' * `pom`: See definition of tree table.
+#' * `pom`: See tree table.
 #'
-#' * `hom`: See definition of tree table.
+#' * `hom`: See tree table.
 #'
-#' * `ExactDate`: See definition of tree table.
+#' * `ExactDate`: See tree table.
 #'
 #' * `DFstatus`: The codes are the same as in tree tables except that stems may
 #' have the additional status `G` (gone). `G` applies when a tree is alive and a
@@ -298,9 +298,9 @@
 #'
 #' * `countPOM`: The number of POMs (HOMs) for the same stem in this census.
 #'
-#' * `status`: See definition of tree table.
+#' * `status`: See tree table.
 #'
-#' * `date`: See definition of tree table.
+#' * `date`: See tree table.
 #'
 #' * `agb`: Same, but notice that some may be NA.
 #'

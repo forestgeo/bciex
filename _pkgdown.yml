@@ -42,11 +42,11 @@ navbar:
 
 reference:
 
-  - title: "Data Sets"
+  - title: "Census and ViewFull tables"
     contents:
+      - census
       - starts_with("bci12")
-      - starts_with("bci_")
 
-  - title: "Package documentation"
+  - title: "Other data Sets"
     contents:
-      - starts_with("bciex-package")
+      - starts_with("bci_")

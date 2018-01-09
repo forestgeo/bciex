@@ -61,7 +61,7 @@ full precision.
 \item \code{D}: Dead.
 \item \code{lost_stem} (deprecated): Lost stem. It usually means the stem was broken
 in the given census, while the tree had no other stem.  This status is
-deprecated;  it is safer to check \code{stemID} to determine whether a tree’s
+deprecated;  it is safer to check \code{stemID} to determine whether a tree's
 measurement changed stems between censuses.
 \item \code{M}: Missing. It is used where there is no record of the corresponding
 value of \code{dbh}, so it is not certain whether the tree was alive or dead.
@@ -87,31 +87,31 @@ metric tons or 106 g). Note that \code{agb = 0} for dead trees.
 
 Compared to tree tables, the the variables are and mean the same. But notice
 some differences in \code{DFstatus} and \code{agb}; also notice the additional
-variables \code{countPOM} and \code{countPOM} and that the variable \code{nostems} does not
+variables \code{codes} and \code{countPOM} and that the variable \code{nostems} does not
 exist for stem tables.
 \itemize{
-\item \code{treeID}: See definition of tree table.
-\item \code{stemID}: See definition of tree table.
-\item \code{tag}: See definition of tree table.
-\item \code{StemTag}: See definition of tree table.
-\item \code{sp}: See definition of tree table.
-\item \code{quadrat}: See definition of tree table.
-\item \code{gx}: See definition of tree table.
-\item \code{gy}: See definition of tree table.
-\item \code{MeasureID}: See definition of tree table.
-\item \code{CensusID}: See definition of tree table.
+\item \code{treeID}: See tree table.
+\item \code{stemID}: See tree table.
+\item \code{tag}: See tree table.
+\item \code{StemTag}: See tree table.
+\item \code{sp}: See tree table.
+\item \code{quadrat}: See tree table.
+\item \code{gx}: See tree table.
+\item \code{gy}: See tree table.
+\item \code{MeasureID}: See tree table.
+\item \code{CensusID}: See tree table.
 \item \code{dbh}: Diameter of the stem.
-\item \code{pom}: See definition of tree table.
-\item \code{hom}: See definition of tree table.
-\item \code{ExactDate}: See definition of tree table.
+\item \code{pom}: See tree table.
+\item \code{hom}: See tree table.
+\item \code{ExactDate}: See tree table.
 \item \code{DFstatus}: The codes are the same as in tree tables except that stems may
 have the additional status \code{G} (gone). \code{G} applies when a tree is alive and a
 stem which formerly had a measurement does not in this census. This happens
 in some plots, where individual stems do not have tags and cannot be tracked.
 \item \code{codes}: The codes for the measurement as recorded in the field.
 \item \code{countPOM}: The number of POMs (HOMs) for the same stem in this census.
-\item \code{status}: See definition of tree table.
-\item \code{date}: See definition of tree table.
+\item \code{status}: See tree table.
+\item \code{date}: See tree table.
 \item \code{agb}: Same, but notice that some may be NA.
 }
 }

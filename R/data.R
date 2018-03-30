@@ -351,6 +351,30 @@ NULL
 
 
 
+
+
+
+# Generic ViewFull table --------------------------------------------------
+
+# xxx cont.
+
+# On Tue, Jan 9, 2018 at 5:39 AM, Suzanne Lao <laosuz@gmail.com> wrote:
+#   Hi Mauro,
+#
+# I just checked the structure of the Tree and Stem tables in our databases, and they are correctly defined in the data dictionary. What has changed are the variables in the ViewFullTable and especially the ViewTaxonomy tables.
+
+ #' @source https://repository.si.edu/bitstream/handle/10088/20863/CTFSDataModelDocumentation.pdf?sequence=2&isAllowed=y
+ #'
+ #' Merges all the relevant variables from the corresponding tables in the
+ #' database back into a flat file. Each record represents one measurement and/or
+ #' attribute of one stem of one tree of one plot from one census. Because
+ #' buttresses can grow, for trees with buttresses, a stem may be measured at
+ #' more than one height. So some stems may have more than one measurement in a
+ #' census, but at different hom
+ #'
+
+
+
 # ViewFullTable -----------------------------------------------------------
 
 #' An example ViewFullTable data set.

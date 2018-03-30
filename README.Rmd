@@ -12,20 +12,19 @@ knitr::opts_chunk$set(
 )
 ```
 
-# bciex: Data sets from BCI for examples<img src="https://i.imgur.com/39pvr4n.png" align="right" height=44 />
+# <img src="https://i.imgur.com/39pvr4n.png" align="right" height=44 /> bciex: Data sets from BCI for examples
 
-
-[![Travis-CI Build Status](https://travis-ci.org/forestgeo/bciex.svg?branch=master)](https://travis-ci.org/forestgeo/bciex)
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN status](http://www.r-pkg.org/badges/version/bciex)](https://cran.r-project.org/package=bciex)
 
 ## Installation
 
-Install __bciex__ from github with:
-
 ```{r gh-installation, eval = FALSE}
-# install.packages("devtools")
-devtools::install_github("forestgeo/bciex")
+# install.packages("remotes")
+remotes::install_github("forestgeo/bciex")
 ```
+
+For details on how to install packages from GitHub, see [this article](https://goo.gl/dQKEeg).
 
 ## Example
 
@@ -40,3 +39,5 @@ str(bci12t1mini)
 # The stem data corresponding to the 1000 trees above.
 str(bci12s7mini)
 ```
+
+## Code of Conduct

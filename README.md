@@ -1,22 +1,23 @@
 
 <!-- Don't edit README.md; instead, please edit README.Rmd -->
-bciex: Data sets from BCI for examples<img src="https://i.imgur.com/39pvr4n.png" align="right" height=44 />
-===========================================================================================================
 
-[![Travis-CI Build Status](https://travis-ci.org/forestgeo/bciex.svg?branch=master)](https://travis-ci.org/forestgeo/bciex) [![CRAN status](http://www.r-pkg.org/badges/version/bciex)](https://cran.r-project.org/package=bciex)
+# <img src="https://i.imgur.com/39pvr4n.png" align="right" height=44 /> bciex: Data sets from BCI for examples
 
-Installation
-------------
+[![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
+[![CRAN
+status](http://www.r-pkg.org/badges/version/bciex)](https://cran.r-project.org/package=bciex)
 
-Install **bciex** from github with:
+## Installation
 
 ``` r
-# install.packages("devtools")
-devtools::install_github("forestgeo/bciex")
+# install.packages("remotes")
+remotes::install_github("forestgeo/bciex")
 ```
 
-Example
--------
+For details on how to install packages from GitHub, see [this
+article](https://goo.gl/dQKEeg).
+
+## Example
 
 This is a basic example which shows you how to solve a common problem:
 
@@ -71,3 +72,5 @@ str(bci12s7mini)
 #>  $ status   : chr  "A" "G" "G" "G" ...
 #>  $ agb      : num  3.24 NA NA NA NA ...
 ```
+
+## Code of Conduct

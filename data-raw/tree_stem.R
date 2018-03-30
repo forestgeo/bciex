@@ -15,13 +15,13 @@ library(bci)
 # Explore trees -----------------------------------------------------------
 
 # Do all censuces have the same number of rows?
-paste0("bci12full", 1:7) %>% map(~get(.) %>% nrow) %>% unlist() %>% unique()
+paste0("bci12full", 1:7) %>% map(~ get(.) %>% nrow()) %>% unlist() %>% unique()
 # Yes.
 
 # Given one tag, may the status of the tree change through time?
 paste0("bci12full", 1:7) %>%
   map_df(
-    ~get(.) %>%
+    ~ get(.) %>%
       filter(as.numeric(tag) == 849457)
   ) %>%
   select(tag, status, DFstatus, everything())
@@ -29,10 +29,10 @@ paste0("bci12full", 1:7) %>%
 
 # Are all tags unique?
 rows_n <- paste0("bci12full", 1:7) %>%
-  map_dbl(~get(.) %>% nrow) %>%
+  map_dbl(~ get(.) %>% nrow()) %>%
   unique()
 unique_tag_n <- paste0("bci12full", 1:7) %>%
-  map_dbl(~get(.) %>% select(tag) %>% unique() %>% nrow()) %>%
+  map_dbl(~ get(.) %>% select(tag) %>% unique() %>% nrow()) %>%
   unique()
 all.equal(rows_n, unique_tag_n)
 # Yes.
@@ -46,13 +46,13 @@ all.equal(rows_n, unique_tag_n)
 # Explore stems -----------------------------------------------------------
 
 # Do all censuces have the same number of rows?
-paste0("bci12stem", 1:7) %>% map(~get(.) %>% nrow) %>% unlist() %>% unique()
+paste0("bci12stem", 1:7) %>% map(~ get(.) %>% nrow()) %>% unlist() %>% unique()
 # Yes.
 
 # Given one tag, may the status of the tree change through time?
 paste0("bci12stem", 1:7) %>%
   map_df(
-    ~get(.) %>%
+    ~ get(.) %>%
       filter(as.numeric(tag) == 849457)
   ) %>%
   select(tag, status, DFstatus, everything())
@@ -60,10 +60,10 @@ paste0("bci12stem", 1:7) %>%
 
 # Are all tags unique?
 rows_n <- paste0("bci12stem", 1:7) %>%
-  map_dbl(~get(.) %>% nrow) %>%
+  map_dbl(~ get(.) %>% nrow()) %>%
   unique()
 unique_tag_n <- paste0("bci12stem", 1:7) %>%
-  map_dbl(~get(.) %>% select(tag) %>% unique() %>% nrow()) %>%
+  map_dbl(~ get(.) %>% select(tag) %>% unique() %>% nrow()) %>%
   unique()
 all.equal(rows_n, unique_tag_n)
 # No
@@ -71,7 +71,7 @@ all.equal(rows_n, unique_tag_n)
 # What do duplicated tags look like?
 paste0("bci12stem", 1:7) %>%
   map(
-    ~get(.) %>%
+    ~ get(.) %>%
       filter(duplicated(tag)) %>%
       select(tag, status, DFstatus, everything()) %>%
       head(10)
@@ -82,11 +82,11 @@ paste0("bci12stem", 1:7) %>%
 
 # Are all tag-stemID unique?
 rows_n <- paste0("bci12stem", 1:7) %>%
-  map_dbl(~get(.) %>% nrow) %>%
+  map_dbl(~ get(.) %>% nrow()) %>%
   unique()
 unique_tag_stemID_n <- paste0("bci12stem", 1:7) %>%
   map_dbl(
-    ~get(.) %>%
+    ~ get(.) %>%
       mutate(tag_stemID = paste(tag, stemID, "-")) %>%
       select(tag_stemID) %>%
       unique() %>%

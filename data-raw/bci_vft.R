@@ -21,5 +21,3 @@ bci12vft_mini <- bci_vft %>%
   filter(QuadratName %in% unique(.$QuadratName)[1:10])
 
 use_data(bci12vft_mini)
-
-

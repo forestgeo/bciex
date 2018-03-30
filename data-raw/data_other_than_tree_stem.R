@@ -51,7 +51,7 @@ tibble::as_tibble(bci.quad.info)
 # Can I coerce to integer? Yes because all are whole numbers
 bci.quad.info %>%
   dplyr::select(hab, quad) %>%
-  purrr::map_chr(~all(assertive::is_whole_number(.)))
+  purrr::map_chr(~ all(assertive::is_whole_number(.)))
 
 bci_quad_info <- bci.quad.info %>%
   dplyr::mutate(

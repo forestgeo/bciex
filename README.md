@@ -1,7 +1,7 @@
 
 <!-- Don't edit README.md; instead, please edit README.Rmd -->
 
-# <img src="https://i.imgur.com/39pvr4n.png" align="right" height=44 /> bciex: Data sets from BCI for examples
+# <img src="https://i.imgur.com/m8FNhQR.png" align="right" height=88 /> bciex: Data sets from BCI for examples
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN

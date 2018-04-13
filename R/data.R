@@ -361,7 +361,9 @@ NULL
 # On Tue, Jan 9, 2018 at 5:39 AM, Suzanne Lao <laosuz@gmail.com> wrote:
 #   Hi Mauro,
 #
-# I just checked the structure of the Tree and Stem tables in our databases, and they are correctly defined in the data dictionary. What has changed are the variables in the ViewFullTable and especially the ViewTaxonomy tables.
+# I just checked the structure of the Tree and Stem tables in our databases, and
+# they are correctly defined in the data dictionary. What has changed are the
+# variables in the ViewFullTable and especially the ViewTaxonomy tables.
 
 #' @source https://repository.si.edu/bitstream/handle/10088/20863/CTFSDataModelDocumentation.pdf?sequence=2&isAllowed=y
 #'

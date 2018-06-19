@@ -12,7 +12,7 @@ knitr::opts_chunk$set(
 )
 ```
 
-# <img src="https://i.imgur.com/m8FNhQR.png" align="right" height=88 /> bciex: Data sets from BCI for examples
+# <img src="https://i.imgur.com/m8FNhQR.png" align="right" height=88 /> Data sets from BCI for examples
 
 [![lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN status](http://www.r-pkg.org/badges/version/bciex)](https://cran.r-project.org/package=bciex)
@@ -28,8 +28,6 @@ For details on how to install packages from GitHub, see [this article](https://g
 
 ## Example
 
-This is a basic example which shows you how to solve a common problem:
-
 ```{r example}
 library(bciex)
 
@@ -40,7 +38,12 @@ str(bci12t1mini)
 str(bci12s7mini)
 ```
 
-## Code of Conduct
+## Information
 
-Please note that this project is released with a [Contributor Code of Conduct](.github/CODE_OF_CONDUCT.md).
-By participating in this project you agree to abide by its terms.
+* [Getting help](SUPPORT.md).
+* [Contributing](CONTRIBUTING.md).
+* [Contributor Code of Conduct](CODE_OF_CONDUCT.md).
+
+## Acknowledgements
+
+Thanks to Suzanne Lao and Shameema Jafferjee Esufali for facilitating data and for answering my questions.

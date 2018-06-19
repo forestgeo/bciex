@@ -186,7 +186,7 @@
 #' that trees (or stems) appear in tree (or stem) tables before they recruit,
 #' while they are alive, and after they die.
 #' * The order of the rows is identical to that of any other tree (or stem)
-#' table of the same plot. This implies that you can compare data accross
+#' table of the same plot. This implies that you can compare data across
 #' censuses even if the row order is important for your analyses. Also, you can
 #' easily repeat analyses with different censuses with minimal effort. For
 #' example, this structure makes helps to calculate demographic rates between
@@ -244,7 +244,7 @@
 #'
 #' * `status`: Indicates the status of the entire tree. For example, if any stem
 #'   is alive, the tree is alive; if every stem is dead, the tree is dead:
-#'     * `A`: Aalive.
+#'     * `A`: Alive.
 #'     * `D`: Dead.
 #'     * `M`: Missing.
 #'     * `P`: Prior. It indicates a tree had not yet recruited at this census.

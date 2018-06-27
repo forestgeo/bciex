@@ -120,3 +120,4 @@ in some plots, where individual stems do not have tags and cannot be tracked.
 Other census tables.: \code{\link{bciYYsNmini}},
   \code{\link{bciYYtNmini}}
 }
+\concept{census tables.}

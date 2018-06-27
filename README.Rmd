@@ -19,6 +19,8 @@ knitr::opts_chunk$set(
 
 ## Installation
 
+[Install all __fgeo__ packages in one step](https://forestgeo.github.io/fgeo/index.html#installation)
+
 ```{r gh-installation, eval = FALSE}
 # install.packages("remotes")
 remotes::install_github("forestgeo/bciex")
@@ -33,10 +35,10 @@ library(bciex)
 
 # Mini dataset of 1000 randomly selected trees from BCI; data realeased in 2012
 str(bci12t1mini)
-
-# The stem data corresponding to the 1000 trees above.
-str(bci12s7mini)
 ```
+
+
+[Get started](https://forestgeo.github.io/fgeo/articles/fgeo.html)
 
 ## Information
 

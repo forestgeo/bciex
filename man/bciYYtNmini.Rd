@@ -25,3 +25,4 @@ census
 Other census tables.: \code{\link{bciYYsNmini}},
   \code{\link{census}}
 }
+\concept{census tables.}
